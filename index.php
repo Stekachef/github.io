@@ -17,7 +17,7 @@
 			$res_summa     = "Сумма двух кубиков равна ";
 			$res_sum_kubik = array ( 'двум' , 'трем' , 'четырем' , 'пяти' , 'шести' , 'семи' , 'восьми' , 'девяти' , 'десяти' , 'одинадцати' , 'двенадцати');
 			
-			
+//Использование структуры if-elseif-else			
 			if ( $kubik == 1 ) {
 				echo '<pre><h1>
       
@@ -83,6 +83,8 @@
 			echo '<br>';
 			echo $res_prev;
 		
+		
+//Использование конструкции switch		
 			switch ($kubik){
 				case 1: echo $res_kubik [0]; break;
 				case 2: echo $res_kubik [1]; break;
